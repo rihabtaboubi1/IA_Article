@@ -1,0 +1,17 @@
+<div class="sign-in-container">
+    <h2>
+      🌐 Se connecter 🌐</h2>
+    <form (ngSubmit)="onSignIn()">
+      <div>
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" id="username" [(ngModel)]="username" name="username" required />
+      </div>
+      <div>
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" [(ngModel)]="password" name="password" required />
+      </div>
+      <button type="submit">🌐Se connecter 🌐</button>
+    </form>
+    <app-footer></app-footer>
+  </div>
+  

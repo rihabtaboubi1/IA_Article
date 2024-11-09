@@ -1,0 +1,22 @@
+<div class="sidebar">
+    <div class="create-project-section">
+      <h2>✨✨ Create a New Article !   </h2>
+      <form (ngSubmit)="createProject()">
+        <input type="text" [(ngModel)]="newProjectName" name="projectName" placeholder="Enter article name" required />
+        <input type="text" [(ngModel)]="newProjectDescription" placeholder="Add article description here" name="projectDescription" />
+        <button type="submit">Create article 🤔</button>
+      </form>
+    </div> <!-- Closing create-project-section -->
+  
+    <div class="projects-section">
+      <h2>📚 Articles 💻</h2>
+      <div class="project-list">
+        <div class="project-card" *ngFor="let project of projects" (click)="goToProject(project)">
+          <h3>{{ project.name }}</h3>
+          
+          <button type="button" (click)="goToProject(project)">View Article</button> <!-- Use click event for navigation -->
+        </div> <!-- Closing project-card -->
+      </div> <!-- Closing project-list -->
+    </div> <!-- Closing projects-section -->
+  </div> <!-- Closing sidebar -->
+  

@@ -1,0 +1,63 @@
+header {
+    background-color: #fdfdfd; /* Couleur de fond */
+    padding: 1px; /* Espacement intérieur */
+    background-image: url(../../../public/123.png);
+  }
+
+  h1{
+    margin-left: 20px;
+    max-width:max-content;
+    width: 100%;
+    position: relative;
+    
+
+  }
+  
+  .container {
+    display: flex; /* Utiliser flexbox pour l'alignement */
+    justify-content: space-between; /* Espacement entre les éléments */
+    align-items: center; /* Centrer verticalement les éléments */
+    margin-top: 1px;
+  }
+  
+  .logo {
+    width: 100px; /* Largeur du logo */
+    margin-right: 200px;
+  }
+  
+  .button-container {
+    margin-left: 800px; /* Pousser le conteneur des boutons à droite */
+
+   
+  }
+  
+  .button-container button {
+    margin-left: 0.5rem; /* Espacement entre les boutons */
+    color: rgb(8, 11, 11);
+    font-size: 1rem;
+    padding: 12px 24px;
+    text-size-adjust: 10px;
+
+  
+  }
+  .btn btn-primary {
+    background-color: rgb(255, 127, 214);
+
+  }
+
+  .btn btn-secondary{
+    background-color: rgb(255, 127, 214);
+
+
+  }
+
+  .btn-custom {
+    background-color: #4CAF50; /* Green */
+    color: white; /* Text color */
+  }
+  .btn-another {
+    background-color: #f44336; /* Red */
+    color: white; /* Text color */
+  }
+  
+  

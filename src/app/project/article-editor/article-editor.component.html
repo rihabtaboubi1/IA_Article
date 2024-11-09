@@ -1,0 +1,12 @@
+<div class="article-editor-container">
+    <h2>Écrire un nouvel article</h2>
+    <textarea 
+      [(ngModel)]="articleContent" 
+      rows="10" 
+      placeholder="Écris ton article ici..."
+      class="article-textarea">
+    </textarea>
+    <button (click)="submitArticle()" class="submit-button">Soumettre l'article</button>
+    <app-footer></app-footer>
+  </div>
+  

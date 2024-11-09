@@ -1,0 +1,65 @@
+/* Style global pour centrer tout le contenu */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Fond clair pour un contraste propre */
+  }
+  
+  /* Conteneur du formulaire centré */
+  .sign-in-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 600px;
+  }
+  
+  /* Style pour les champs de saisie */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  /* Mise en avant des champs au focus */
+  input:focus {
+    border-color: #3d9bff;
+    outline: none;
+  }
+  
+  /* Style du bouton */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #48b6ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #004494;
+    transform: scale(1);
+  }
+  

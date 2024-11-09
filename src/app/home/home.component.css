@@ -1,0 +1,49 @@
+
+
+    .create-project-section {
+      margin-bottom: 30px;
+      
+                                          
+    }
+    .create-project-section input {
+      padding: 10px;
+      margin-right: 10px;
+    }
+    .projects-section {
+      margin-top: 20px;
+    }
+    .project-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .project-card {
+      width: 200px;
+      height: 150px;
+      background-color: #f1f1f1;
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .project-card:hover {
+      background-color: #e0e0e0;
+    }
+    .progress-bar-container {
+      background-color: #ccc;
+      border-radius: 5px;
+      height: 10px;
+      margin-top: 10px;
+      position: relative;
+    }
+    .progress-bar {
+      background-color: #4caf50;
+      height: 100%;
+      border-radius: 5px;
+    }
+    h2 {
+      color: #4caf50;
+    }
+
+  

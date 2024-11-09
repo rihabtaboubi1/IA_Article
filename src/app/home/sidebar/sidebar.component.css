@@ -1,0 +1,80 @@
+.sidebar {
+  width: 500px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #070000;
+  height: 80vh; /* Full height of the viewport */
+display: flex;
+flex-direction: column;
+margin-top: auto;
+}
+
+.create-project-section {
+  margin-bottom: 30px;
+  color: #4caf50;
+}
+
+.create-project-section input {
+  padding: 10px;
+  margin-right: 10px;
+  width: calc(100% - 22px); /* Adjust width */
+  margin-top: 10px;
+}
+
+.projects-section {
+  margin-top: 20px;
+  flex-grow: 1; /* Allow this section to grow and take remaining space */
+overflow-y: auto; 
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  gap: 10px; /* Space between projects */
+  max-height: 400px; /* Set max height for the project list */
+overflow-y: auto; /* Enable vertical scrolling */
+padding-right: 10px;
+border: 1px solid #ccc;
+background-color: #5a5050;
+}
+
+.project-card {
+  background-color: #72b9ff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  background-color: #dee2e6;
+}
+
+.progress-bar-container {
+  background-color: #ccc;
+  border-radius: 5px;
+  height: 10px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  background-color: #4caf50;
+  height: 100%;
+  border-radius: 5px;
+}
+
+
+
+.project-section {
+  max-height: 300px; /* Adjust height as needed */
+  overflow-y: auto;  /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal scrolling if needed */
+  border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+  padding: 10px; /* Optional: Add some padding */
+  border-radius: 5px; /* Optional: Round the corners */
+}
+
+h2 {
+  color: #72b9ff;
+}
